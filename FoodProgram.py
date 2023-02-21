@@ -5,8 +5,10 @@ import FoodClass as fc
 # ['Date', 'Name of item', 'Cost', 'customerid' ]
 
 
-customer = fc.Customer(570, 'Danni Sellyar', '97 Mitchell Way Hewitt Texas 76712','dsellyarft@gmpg.org', '254-555-9362', False)
-customer = fc.Customer(569, 'Aubree Himsworth', '1172 Moulton Hill Waco Texas 76710','ahimsworthfs@list-manage.com', '254-555-2273', True)
+customer = fc.Customer(570, 'Danni Sellyar', '97 Mitchell Way Hewitt Texas 76712',
+                       'dsellyarft@gmpg.org', '254-555-9362', False)
+customer = fc.Customer(569, 'Aubree Himsworth', '1172 Moulton Hill Waco Texas 76710',
+                       'ahimsworthfs@list-manage.com', '254-555-2273', True)
 
 order_total = 0
 
